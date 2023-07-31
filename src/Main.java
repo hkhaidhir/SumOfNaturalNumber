@@ -3,11 +3,8 @@ public class Main {
         int start = 5;
         int end = 100;
 
-        long sum = 0;
+        long sum = (end - start + 1) * (end + start) / 2;
 
-        for (int i = start; i <= end; i++){
-            sum += i;
-        }
         System.out.println(sum);
     }
 }
